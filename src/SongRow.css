@@ -1,0 +1,29 @@
+.songRow {
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.songRow:hover{
+    cursor: pointer;
+    background-color: #282828;
+    opacity: 0.8;
+}
+.songRow__info {
+    margin-left: 20px;
+}
+.songRow__info > h1 {
+    font-size: 16px;
+}
+.songRow__info > p {
+    font-size: 14px;
+    margin-top: 3px;
+    color: gray;
+}
+.songRow__album {
+    
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
